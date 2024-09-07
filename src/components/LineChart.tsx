@@ -12,7 +12,9 @@ const LineChart = () => {
     datasets: [
       {
         label: 'Inflation Trend',
-        data: [30, 45, 50, 70, 60, 80], // Fake data points
+        // data: [30, 45, 50, 70, 60, 80], // Fake data points
+        data: [8, 12, 12, 14, 15, 13, 14], // Fake data points
+        // Average: 12.5
         borderColor: '#4f46e5', // Sleek blue color for line
         backgroundColor: 'rgba(79, 70, 229, 0.1)', // Light fill under the line
         fill: true,
