@@ -41,7 +41,7 @@ export default function LandingPage() {
                 </p>
                 <Link href="#waitlist">
                   <button className="bg-primary text-primary-foreground hover:bg-primary/90 px-6 py-3 rounded-md text-lg mt-8">
-                    Get Instant Access
+                    Join Waitlist
                   </button>
                 </Link>
               </div>
