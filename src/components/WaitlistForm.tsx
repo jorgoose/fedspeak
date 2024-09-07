@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
 const supabaseUrl = 'https://erjnwecqqsyfdcywfaow.supabase.co'
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_KEY as string;
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY as string;
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 export default function WaitlistForm() {
