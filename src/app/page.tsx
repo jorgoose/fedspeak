@@ -133,7 +133,7 @@ export default function LandingPage() {
                   <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">labor</span>
                 </div>
                 <div className="flex items-center space-x-2 mt-4">
-                  <span className="text-sm font-semibold text-gray-900">Keyword Trend: "Inflation"</span>
+                  <span className="text-sm font-semibold text-gray-900">Keyword Trend: &quot;Inflation&quot;</span>
                 </div>
                 <LineChart />
                 <div className="flex justify-between items-center mt-4">
